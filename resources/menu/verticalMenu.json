@@ -1,0 +1,118 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "الرئيسية",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "pages-home"
+    },
+    {
+      "url": "",
+      "icon": "menu-icon tf-icons mdi mdi-plus-circle-outline",
+      "name": "أضافة تسهيل",
+      "slug": "أضافة تسهيل",
+      "submenu": [
+        {
+          "url": "/facilities/create",
+          "name": "عن طريق الإدارة",
+          "slug": "عن طريق الإدارة"
+        },
+        {
+          "url": "/facilitiesByBranch/facilitiesByBranch",
+          "name": "عن طريق الفرع",
+          "slug": "عن طريق الفرع"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "icon": "menu-icon tf-icons mdi mdi-file-outline",
+      "name": "التسهيلات",
+      "slug": "التسهيلات",
+      "submenu": [
+        {
+          "url": "/facilities",
+          "name": "عن طريق الإدارة",
+          "slug": "عن طريق الإدارة"
+        },
+        {
+          "url": "/facilitiesByBranch",
+          "name": "عن طريق الفرع",
+          "slug": "عن طريق الفرع"
+        }
+      ]
+    },
+    {
+      "url": "/reports",
+      "icon": "menu-icon tf-icons mdi mdi-chart-box-outline",
+      "name": "التقارير",
+      "slug": "التقارير"
+    },
+    {
+      "url": "",
+      "icon": "menu-icon tf-icons mdi mdi-account-group-outline",
+      "name": "المستخدمين",
+      "slug": "المستخدمين",
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "المستخدمين",
+          "slug": "المستخدمين"
+        },
+        {
+          "url": "/roles",
+          "name": "الادوار",
+          "slug": "الادوار"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "icon": "menu-icon tf-icons mdi mdi-cog-outline",
+      "name": "الأعدادات",
+      "slug": "الأعدادات",
+      "submenu": [
+        {
+          "url": "/branches",
+          "name": "الفروع",
+          "slug": "الفروع"
+        },
+        {
+          "url": "/types",
+          "name": "الانواع",
+          "slug": "الانواع"
+        },
+        {
+          "url": "/currencies",
+          "name": "العملات",
+          "slug": "العملات"
+        },
+        {
+          "url": "/categories",
+          "name": "الفئات",
+          "slug": "الفئات"
+        },
+        {
+          "url": "/specializations",
+          "name": "التخصصات",
+          "slug": "التخصصات"
+        },
+        {
+          "url": "/products",
+          "name": "المنتجات",
+          "slug": "المنتجات"
+        },
+        {
+          "url": "/units",
+          "name": "الوحدات",
+          "slug": "الوحدات"
+        },
+        {
+          "url": "/statuses",
+          "name": "الحالات",
+          "slug": "الحالات"
+        }
+      ]
+    }
+  ]
+}
